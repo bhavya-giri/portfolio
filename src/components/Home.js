@@ -1,11 +1,16 @@
 import React from 'react'
 import Envelope from '../assets/Envelope.png';
+import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='w-1/2 left-20 absolute top-1/3'>
+    <div className='w-1/2 left-20cl absolute top-1/3 pl-10'>
+      
    <h1 className='text-7xl pb-6'>
-    hi, Bhavya here.
+   <Typewriter onInit={(typewriter)=>{
+        typewriter.typeString("hi, Bhavya here").start();
+      }}/>
    </h1>
+   
     <p className='text-5xl'> I create stuff sometimes.</p>
     <div className='mt-24 border-solid border-2 border-black hover:cursor-pointer w-56 relative'>
         <img className='h-12 w-12  flex-1 relative left-1' src={Envelope} alt=''/>
