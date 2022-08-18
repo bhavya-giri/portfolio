@@ -9,9 +9,10 @@ function App() {
   return (
     <>
       <NavSidebar/>
+      <Home/>
+   
     </>
 
-   
    
   );
 }

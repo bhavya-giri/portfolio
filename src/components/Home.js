@@ -3,18 +3,18 @@ import Envelope from '../assets/Envelope.png';
 import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='w-1/2 left-20cl absolute top-1/3 pl-10'>
+    <div className='flex flex-col h-screen md:w-1/2 justify-center items-center '>
       
-   <h1 className='text-7xl'>
+   <h1 className='text-4xl md:text-7xl font-black mb-5 '>
    <Typewriter onInit={(typewriter)=>{
         typewriter.typeString("hi, Bhavya here").start();
       }}/>
    </h1>
    
-    <p className='text-5xl'> I create stuff sometimes.</p>
+    <p className='text-3xl md:text-5xl'> I create stuff sometimes.</p>
     <div className='mt-24 border-solid border-2 border-black hover:cursor-pointer w-56 relative'>
-        <img className='h-12 w-12  flex-1 relative left-1' src={Envelope} alt=''/>
-        <p className='flex-1 text-3xl absolute top-1 right-2' >Contact me</p>
+        <img className='h-12 w-12 relative left-1' src={Envelope} alt=''/>
+        <p className=' text-3xl absolute top-1 right-2' >Contact me</p>
     </div>
   </div>
   )
