@@ -9,8 +9,10 @@ function App() {
   return (
     <>
       <NavSidebar/>
+      <div className=''>
       <Home/>
-   
+      <Setup/>
+      </div>
     </>
 
    

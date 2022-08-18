@@ -3,7 +3,7 @@ import Envelope from '../assets/Envelope.png';
 import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='flex flex-col h-screen md:w-1/2 justify-center items-center '>
+    <div className='h-screen md:w-1/2  '>
       
    <h1 className='text-4xl md:text-7xl font-black mb-5 '>
    <Typewriter onInit={(typewriter)=>{
