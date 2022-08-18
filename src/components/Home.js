@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='w-1/2 left-20cl absolute top-1/3 pl-10'>
       
-   <h1 className='text-7xl pb-6'>
+   <h1 className='text-7xl'>
    <Typewriter onInit={(typewriter)=>{
         typewriter.typeString("hi, Bhavya here").start();
       }}/>
