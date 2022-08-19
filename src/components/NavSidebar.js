@@ -18,7 +18,7 @@ const NavSidebar = () => {
       </div>
       <div>
         <svg
-          className="absolute right-64 bottom-4 "
+          className="absolute right-64 bottom-4"
           width="50"
           height="50"
           viewBox="0 0 50 50"

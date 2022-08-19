@@ -3,9 +3,9 @@ import Envelope from '../assets/Envelope.png';
 import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='h-screen md:w-1/2  '>
+    <div className='flex flex-col justify-center items-center h-screen'>
       
-   <h1 className='text-4xl md:text-7xl font-black mb-5 '>
+   <h1 className='text-6xl md:text-7xl font-black mb-5 '>
    <Typewriter onInit={(typewriter)=>{
         typewriter.typeString("hi, Bhavya here").start();
       }}/>
