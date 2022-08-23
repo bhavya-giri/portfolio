@@ -1,20 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import './NavSidebar.css'
 const NavSidebar = () => {
   return (
     <nav className="fixed flex bottom-0 right-0">
 
       <div className=" mr-12 md:block hidden text-gray-500 mb-20">
-        <Link className="p-0.5 block hover:text-black " to="/">
+        <HashLink className="p-0.5 block hover:text-black " smooth to="/path#home">
           /home
-        </Link>
-        <Link className="p-0.5 block hover:text-black" to="/about">
+        </HashLink>
+        <HashLink className="p-0.5 block hover:text-black" smooth to="/path#about">
           /about
-        </Link>
-        <Link className="p-0.5 block  hover:text-black" to="/projects">
+        </HashLink>
+        <HashLink className="p-0.5 block  hover:text-black" smooth to="/path#projects">
           /projects
-        </Link>
+        </HashLink>
       </div>
       <div>
         <a href="https://twitter.com/BhavyaGiri_"><svg
