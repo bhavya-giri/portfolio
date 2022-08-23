@@ -12,6 +12,8 @@ const Projects = () => {
             </h1>
             <a
               href="https://github.com/bhavya-giri/netflix-clone"
+              target="_blank"
+              rel="noopener noreferrer"
               className="justify-self-end ml-auto mr-2"
             >
               <svg
@@ -26,7 +28,7 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-            Uses tmdb Movie api to fetch trailers and banner of various
+            Uses tmdb movie api to fetch trailers and banner of various
             movies/shows.
           </p>
           <p className=" text-xl mt-8 text-center">
@@ -36,10 +38,12 @@ const Projects = () => {
         <div className="bg-gray-400 hover:bg-gray-500 py-6 hover:-translate-y-2	">
           <div className="flex">
             <h1 className="mt-6 ml-3 md:ml-6 text-2xl md:text-5xl ">
-              Netflix Clone
+              Image Gallery
             </h1>
             <a
-              href="https://github.com/bhavya-giri/netflix-clone"
+              href="https://github.com/bhavya-giri/image-gallery"
+              target="_blank"
+              rel="noopener noreferrer"
               className="justify-self-end ml-auto mr-2"
             >
               <svg
@@ -54,20 +58,21 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-            Uses tmdb Movie api to fetch trailers and banner of various
-            movies/shows.
+           Used pixabay api to fetch images and implimented search with tags.
           </p>
           <p className=" text-xl mt-8 text-center">
-            react.js, redux, firebase{" "}
+            react.js, tailwindcss{" "}
           </p>{" "}
         </div>
         <div className="bg-gray-400 hover:bg-gray-500 py-6 hover:-translate-y-2	">
           <div className="flex">
             <h1 className="mt-6 ml-3 md:ml-6 text-2xl md:text-5xl ">
-              Netflix Clone
+              Tic Tac Toe
             </h1>
             <a
-              href="https://github.com/bhavya-giri/netflix-clone"
+              href="https://github.com/bhavya-giri/tic-tac-toe-game"
+              target="_blank"
+              rel="noopener noreferrer"
               className="justify-self-end ml-auto mr-2"
             >
               <svg
@@ -82,11 +87,10 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-            Uses tmdb Movie api to fetch trailers and banner of various
-            movies/shows.
+          The game of Tic Tac Toe with the feature to store history of every move.
           </p>
           <p className=" text-xl mt-8 text-center">
-            react.js, redux, firebase{" "}
+            react.js{" "}
           </p>{" "}
         </div>
       </div>
