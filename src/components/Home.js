@@ -12,10 +12,11 @@ const Home = () => {
    </h1>
    
     <p className='text-3xl md:text-5xl'> I create stuff sometimes.</p>
-    <div className='mt-24 border-solid border-2 border-black hover:cursor-pointer w-56 relative'>
+  
+    <a href='mailto: bhavya.giri@gmail.com' className='mt-24 border-solid border-2 border-black hover:cursor-pointer w-56 relative'>
         <img className='h-12 w-12 relative left-1' src={Envelope} alt=''/>
         <p className=' text-3xl absolute top-1 right-2' >Contact me</p>
-    </div>
+    </a>
   </div>
   )
 }
