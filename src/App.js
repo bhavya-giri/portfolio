@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavSidebar from "./components/NavSidebar";
 import Projects from "./components/Projects";
@@ -19,6 +20,7 @@ function App() {
         </div>
         <About/>
         <Projects/>
+        <Footer/>
       </div>
     </>
   );
