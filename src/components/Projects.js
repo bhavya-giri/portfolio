@@ -2,8 +2,8 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="pb-8" id='projects'>
-      <h1 className="text-6xl ml-16 md:ml-32">/ projects</h1>
+    <div className="pb-8 font-Roboto" id='projects'>
+      <h1 className="text-6xl ml-8 md:ml-32">/projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 max-w-screen mx-16 md:mx-32 mt-8 text-white">
         <div className="bg-gray-400 hover:bg-gray-500 py-6 hover:-translate-y-2	">
           <div className="flex">

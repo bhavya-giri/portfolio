@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import './NavSidebar.css'
 const NavSidebar = () => {
   return (
-    <nav className="fixed flex bottom-0 right-0">
+    <nav className="fixed flex bottom-0 right-0 font-Roboto">
 
       <div className=" mr-12 md:block hidden text-gray-500 mb-20">
         <HashLink className="p-0.5 block hover:text-black " smooth to="/path#home">
