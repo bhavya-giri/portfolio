@@ -28,8 +28,7 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-            Uses tmdb movie api to fetch trailers and banner of various
-            movies/shows.
+          Uses tmdb movie API to fetch trailers and banners of various movies/shows.
           </p>
           <p className=" text-xl mt-8 text-center">
             react.js, redux, firebase{" "}
@@ -58,7 +57,7 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-           Used pixabay api to fetch images and implimented search with tags.
+          Used pixabay API to fetch images and implemented search with tags.
           </p>
           <p className=" text-xl mt-8 text-center">
             react.js, tailwindcss{" "}
@@ -87,7 +86,7 @@ const Projects = () => {
             </a>
           </div>
           <p className="text-xl ml-3 md:ml-6 md:text-2xl mt-6">
-          The game of Tic Tac Toe with the feature to store history of every move.
+          The game of Tic Tac Toe with the feature to store the history of every move.
           </p>
           <p className=" text-xl mt-8 text-center">
             react.js{" "}
